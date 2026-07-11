@@ -1,0 +1,12 @@
+duckdb>=1.5.0
+sqlglot>=30.0.0
+networkx>=3.4.0
+pandas>=2.0.0
+pytest>=8.0.0
+
+# Optional: only needed for --llm narrative mode (falls back to a deterministic
+# trace automatically if this isn't installed or ANTHROPIC_API_KEY isn't set)
+anthropic>=0.40.0
+
+# Optional: only needed if PIPELINE_ENGINE=snowflake
+# snowflake-connector-python>=3.12.0
